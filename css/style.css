@@ -1,0 +1,152 @@
+:root {
+    --primary-color: rgb(34, 34, 59);
+    --secondary-color: rgb(255, 193, 7);
+
+    --title: font-family: 'Kanit', sans-serif;
+    --text: font-family: 'Inter', sans-serif;
+}
+
+/* GENERAL */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Kanit', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__info > li {
+    list-style: none;
+}
+
+.nav-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+/* --------------------------- INDEX ---------------------------- */
+
+.hero {
+    color: white;
+    background-color: var(--primary-color);
+    padding: 60px;
+}
+
+.hero > h1 {
+    font-size: 3.5rem;
+}
+
+.hero > p {
+    font-size: 1.2rem;
+}
+
+.hero > div {
+    font-size: 3.5rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.img__index {
+    object-fit: cover;
+    height: 400px;
+}
+
+.card {
+    padding: 0;
+}
+
+.card > img {
+    object-fit: cover;
+}
+
+.yo {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+
+/* --------------------------- CARRITO ---------------------------- */
+
+.contenedor__carrito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.carrito__producto__imagen {
+    height: 15rem;
+    max-width: 10rem;
+    border-radius: 3%;
+    object-fit: contain;
+}
+
+.producto {
+    margin-bottom: 0.3rem;
+}
+
+.carrito__accion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.disabled {
+    display: none;
+}
+
+/* --------------------------- CONTACTO ---------------------------- */
+
+.formulario {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--primary-color);
+    /* color: var(--secondary-color); */
+    color: #fff;
+}

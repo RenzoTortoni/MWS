@@ -1,0 +1,43 @@
+[
+    {
+    "id": "remera-1",
+    "titulo": "Remera Bourbon",
+    "imagen": "../img/ropa/remeras/Remera Bourbon 1.jpg",
+    "precio": 2000
+    },
+
+    {
+    "id": "remera-2",
+    "titulo": "Remera Halloween Town",
+    "imagen": "../img/ropa/remeras/Remera hallowen town 1.jpg",
+    "precio": 2000
+    },
+
+    {
+    "id": "remera-3",
+    "titulo": "Remera Pizza",
+    "imagen": "../img/ropa/remeras/Remera Pizza 1.jpg",
+    "precio": 2000
+    },
+
+    {
+    "id": "remera-4",
+    "titulo": "Remera Grinch",
+    "imagen": "../img/ropa/remeras/Remera Grinch 1.jpg",
+    "precio": 2000
+    },
+
+    {
+    "id": "remera-5",
+    "titulo": "Remera Wrestling",
+    "imagen": "../img/ropa/remeras/Remera wrestling 1.jpg",
+    "precio": 2000
+    },
+
+    {
+    "id": "remera-6",
+    "titulo": "Remera Pug",
+    "imagen": "../img/ropa/remeras/Remera Pug 1.jpg",
+    "precio": 2000
+    }
+]
